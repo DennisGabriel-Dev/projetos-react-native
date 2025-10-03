@@ -11,6 +11,6 @@ export default StyleSheet.create({
     padding: 16,
     alignItems: 'center',
     justifyContent: 'center',
-    height: 100,
+    height: 100
   }
 });

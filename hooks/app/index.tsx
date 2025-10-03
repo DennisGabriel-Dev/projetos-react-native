@@ -6,6 +6,9 @@ export default function Index() {
   const [color, setColor] = useState("#FFFFFF");
   useEffect(() => {
     setColor(count % 2 === 0 ? "#DFE6E9" : "#74B9FF");
+    if(count === 5){
+      console.log("Contador atingiu meio do caminho");
+    }
   }, [count]); 
 
   return (

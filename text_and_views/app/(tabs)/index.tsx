@@ -1,6 +1,6 @@
-import { View } from 'react-native';
-
+import PersonTextDemo from '@/components/person-text-demo';
 import ProfileCard from '@/components/profile-card';
+import { View } from 'react-native';
 
 export default function HomeScreen() {
   return (
@@ -9,6 +9,7 @@ export default function HomeScreen() {
       <ProfileCard name="Júnior Gomes" position="Web Designer" />
       <ProfileCard name="André Sampaio" position="Frontend Developer" />
       <ProfileCard name="Wagner Lopes" position="Backend Developer" />
+      <PersonTextDemo />
     </View>
   );
 }
